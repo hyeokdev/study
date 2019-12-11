@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font: 20px "Arial",Gulim;
+            margin: 20px;
+        }
+        li {
+            list-style: none;
+        }
+        h1, ul {
+            padding: 10px;
+        }
+        .util li {
+            display: inline;
+        }
+        .util li a {
+            float: left;
+            padding: 10px 20px;
+            margin-right: 1px;
+            background: #123456;
+            color: #abcdef;
+            transition: background 1s, color 1s;
+        }
+        .util li a:hover {
+            background: #abcdef;
+            color: #123456;
+        }
+    </style>
+</head>
+<body>
+    <h1>Changing Utilmenu</h1>    
+    <ul class="util">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">JOIN</a></li>
+        <li><a href="#">SITEMAP</a></li>
+    </ul>
+</body>
+</html>

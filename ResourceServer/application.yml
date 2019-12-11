@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    platform: MYSQL
+    url: jdbc:mysql://localhost/study?characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1q2w3e4r!
+  jpa:
+    database: MYSQL
+    showSql: true
+    hibernate:
+      ddl-auto: update  mvc:    view:      prefix: /WEB-INF/view/
+      suffix: .jsp
+
+security:
+  oauth2:
+#    client:
+#      client-id: poongd-client
+#      client-secret: poongd-password
+#    resource:
+#      token-info-uri: http://localhost:8081/oauth/check_token
+    jwt:
+      signkey: 123@#$
+      

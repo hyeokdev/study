@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 10px;
+        }
+        li {
+            list-style-type: none;
+        }
+        #header {
+            position: fixed;
+            width: 200px;
+            left: 50px;
+            top: 30px;
+        }
+        h1 {
+            width: 250px;
+            font: bold 15px "굴림",Gulim;
+            color: #123456;
+        }
+        h1 img {
+            display: block;
+            width: 50%;
+        }
+        #gnb {
+            width: 150px;
+            margin: 10px 0;
+        }
+        #gnb li a {
+            display: block;
+            background: #123456;
+            margin: 2px 0;
+            padding: 5px;
+            color: #fff;
+            font: bold 16px "Arial";
+            text-decoration: none;
+        }
+        #gnb li a:hover {
+            background: #456789;
+        }      
+        #container {
+            width: 300px;
+            height: 1500px;
+            margin-left: 250px;
+            background: #123456;
+        }
+        #footer {
+            width: 550px;
+        }
+        address {
+            font-style: normal;
+            background: #000;
+            padding: 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>
+            <img src="images/avatar.png" alt="배찌"/>
+            뜨거운 웹 표준, <br/>시원하게 얼려드려요!
+        </h1>
+        <ul id="gnb">
+            <li>
+                <a href="#">COMPANY</a>
+                <a href="#">PRODUCT</a>
+                <a href="#">SERVICE</a>
+                <a href="#">COMMUNITY</a>
+            </li>
+        </ul>
+    </div>
+    <div id="container">
+        <p>본문내용이지요~</p>
+    </div>
+    <div id="footer">
+        <address>Copyright Allright Reserved.</address>
+    </div>
+</body>
+</html>

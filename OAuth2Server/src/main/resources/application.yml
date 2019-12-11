@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    platform: MYSQL
+    url: jdbc:mysql://localhost/insight?characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1q2w3e4r!
+  jpa:
+    database: MYSQL
+    showSql: true
+
+security:
+  oauth2:
+    jwt:
+      signkey: 123@#$
